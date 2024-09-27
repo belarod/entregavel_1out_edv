@@ -1,0 +1,17 @@
+@import url(darkmode.css);
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+.header__container{
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--base-color);
+}
+.header__logo{
+    width: 15vh;
+    padding: 15px 10px;
+}

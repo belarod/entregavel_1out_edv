@@ -1,0 +1,23 @@
+:root{ /* paleta light mode*/
+    --base-color: #FFFFFF;
+    --second-base-color: #b6b6b6;
+    --contrast-color: #EB0028;
+    --dark-color: #000000;
+
+    --text-color: #292929;
+    --second-text-color: #414141;
+
+    --backdrop: background-color: rgba(0, 0, 0, 0.5)
+}
+
+.darkmode{
+    --base-color: #1A1A1A;
+    --second-base-color: #2A2A2A;
+    --contrast-color: #EB0028;
+    --dark-color: #000000;
+
+    --text-color: #E0E0E0;
+    --second-text-color: #B6B6B6;
+
+    --backdrop: #0000009c;
+}

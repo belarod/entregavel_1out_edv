@@ -1,0 +1,61 @@
+@import url(darkmode.css);
+/* NAVEGAÇÃO */
+.nav__menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--base-color);
+    text-align: center;
+    padding: 10px 0;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+}
+.nav__link{
+    height: 1.5em;
+}
+.nav__menu__configuracoes{
+    width: 100vw;
+    height: 20vh;
+    padding: 1.2em;
+
+    border-radius: 10% 10% 0 0;
+    position: fixed;
+    bottom: 5%;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    transition-property: all;
+    transition-duration: 0.5ms;
+    transition-timing-function: ease-in;
+}
+/* BACKDROP */
+.escurece__main{
+    background-color: var(--backdrop);
+}
+/* DARKMODE */
+#troca_tema svg:last-child{
+    display: none;
+}
+.darkmode #troca__tema svg:first-child{
+    display: none;
+}
+.darkmode #troca__tema svg:last-child{
+    display: block;
+}
+/* BOTAO */
+button{
+    all: unset;
+    cursor: pointer;
+
+    background-color: var(--base-color);
+    padding: 0.7em;
+    border-radius: 50%;
+}
