@@ -41,7 +41,7 @@ li{
     background-color: var(--backdrop);
 }
 /* DARKMODE */
-#troca_tema svg:last-child{
+#troca__tema svg:last-child{
     display: none;
 }
 .darkmode #troca__tema svg:first-child{
