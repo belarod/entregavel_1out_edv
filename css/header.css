@@ -5,6 +5,10 @@
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
   }
 
+.nav__container{
+    display: none;
+}
+
 .header__container{
     display: flex;
     justify-content: center;
@@ -17,6 +21,24 @@
 }
 
 @media (min-width: 1024px){
+    .header__container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        background-color: var(--base-color);
+    }
+
+    .nav__txt{
+        text-decoration: none;
+        color: var(--text-color);
+        cursor: pointer;
+    }
+
+    .nav__container{
+        display: block;
+    }
+
     .nav__link{
         display: none;
     }
