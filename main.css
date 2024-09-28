@@ -1,0 +1,35 @@
+@import url(darkmode.css);
+
+.card__container__introducao{
+    background-color: var(--second-base-color);
+    margin: 5%;
+    padding: 3%;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.txt__palavra--destaque{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.txt__contrast{
+    color: var(--contrast-color);
+}
+
+.footer__container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+    font-size: large;
+    background-color: var(--base-color);
+    padding: 3em 3em;
+}
+
+.footer__icons{
+    width: 24px;
+}
