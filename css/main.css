@@ -1,7 +1,11 @@
 @import url(darkmode.css);
 
+body{
+    background-color: var(--body-color);
+}
+
 .card__container__introducao{
-    background-color: var(--second-base-color);
+    background-color: var(--base-color);
     margin: 5%;
     padding: 3%;
     border-radius: 15px;
@@ -44,6 +48,7 @@
 
     .footer__container{
         display: flex;
+        flex-direction: row;
         justify-content: center;
         gap: 1em;
     

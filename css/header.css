@@ -33,6 +33,7 @@
         text-decoration: none;
         color: var(--text-color);
         cursor: pointer;
+        padding: 30px;
     }
 
     .nav__container{

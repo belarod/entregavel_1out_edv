@@ -36,6 +36,13 @@ li{
     transition-duration: 0.5ms;
     transition-timing-function: ease-in;
 }
+.visible{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+
 /* BACKDROP */
 .escurece__main{
     background-color: var(--backdrop);
