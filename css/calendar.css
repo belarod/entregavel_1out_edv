@@ -1,0 +1,43 @@
+.card__calendar__img{
+    width: 10vw;
+    margin-right: 2%;
+    min-width: 40%;
+    height: auto;
+}
+
+.card__speaker__txt{
+    display: flex;
+}
+
+.p__day{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.card__day{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--base-color);
+    margin: 5%;
+    padding: 3%;
+    border-radius: 15px;
+    
+    gap: 2em;
+}
+
+.txt__talks{
+    font-size: large;
+    font-weight: bold;
+}
+
+@media (min-width: 1024px){
+    .card__calendar__img{
+        width: 10vw;
+        min-width: 20%;
+    }
+    .card__speaker__txt{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
