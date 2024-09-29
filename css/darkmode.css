@@ -26,4 +26,6 @@
     --fill: #ffffff;
 
     --body-color: #616161;
+
+    transition: background-color 0.8s ease, color 0.8s ease;
 }

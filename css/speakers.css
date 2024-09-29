@@ -1,0 +1,44 @@
+@import url(darkmode.css);
+
+.card__img{
+    width: 15vw;
+    margin-right: 2%;
+    min-width: 50%;
+    height: auto;
+}
+
+.card__container__speakers{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--base-color);
+    margin: 5%;
+    padding: 3%;
+    border-radius: 15px;
+    
+    gap: 2em;
+}
+
+.card__speaker{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: ;
+}
+
+.p__speakers{
+    text-indent: 2em;
+    text-align: justify;
+}
+
+@media (min-width: 1024px){
+    .card__img{
+        width: 10vw;
+        min-width: 30%;
+    }
+    .card__speaker{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}

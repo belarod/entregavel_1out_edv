@@ -1,5 +1,9 @@
 @import url(darkmode.css);
 /* NAVEGAÇÃO */
+.footer__container{
+    width: 100%;
+}
+
 .nav__menu{
     position: fixed;
     bottom: 0;
@@ -31,22 +35,13 @@ li{
     display: flex;
     justify-content: end;
     align-items: center;
-
-    transition-property: all;
-    transition-duration: 0.5ms;
-    transition-timing-function: ease-in;
 }
 .visible{
-    display: block;
-    transition-property: all;
-    transition-duration: 0.5ms;
-    transition-timing-function: ease-in;
+    visibility: visible;
 }
+
 .hidden{
-    display: none;
-    transition-property: all;
-    transition-duration: 0.5ms;
-    transition-timing-function: ease-in;
+    visibility: hidden;
 }
 
 /* BACKDROP */
@@ -73,8 +68,8 @@ button{
     border-radius: 50%;
 }
 
-@media (min-width: 1024px){
+/* @media (min-width: 1024px){
     .nav__menu__configuracoes{
         display: none;
     }
-}
+} */

@@ -18,6 +18,7 @@
 .header__logo{
     width: 15vh;
     padding: 15px 10px;
+    min-width: 6em;
 }
 
 @media (min-width: 1024px){
