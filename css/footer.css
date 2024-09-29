@@ -38,9 +38,15 @@ li{
 }
 .visible{
     display: block;
+    transition-property: all;
+    transition-duration: 0.5ms;
+    transition-timing-function: ease-in;
 }
 .hidden{
     display: none;
+    transition-property: all;
+    transition-duration: 0.5ms;
+    transition-timing-function: ease-in;
 }
 
 /* BACKDROP */
@@ -65,4 +71,10 @@ button{
     background-color: var(--base-color);
     padding: 0.7em;
     border-radius: 50%;
+}
+
+@media (min-width: 1024px){
+    .nav__menu__configuracoes{
+        display: none;
+    }
 }
